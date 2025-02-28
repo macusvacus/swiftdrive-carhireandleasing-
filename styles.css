@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #837c7c;
+}
+
+header {
+    background-color: #FFFF00;  
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    list-style:NONE;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content:center ;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.car {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.car img {
+    width: 50;
+}
+
+button {
+    background-color: #e40c0c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
